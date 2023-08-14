@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+        <meta name="renderer" content="webkit">
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+        <meta http-equiv="Cache-Control" content="no-siteapp" />
+        <meta name="To-Do List Single Page Application" content="Notepad Task Management webApp">
+        <meta name="description" content="用于记录待办事项的工具">
+        <meta name="author" content="Dhyey Shrimankar, dhyeyshrimankar3187@gmail.com">
+        <meta name ="viewport" content ="width=device-width,initial-scale=1, maximum-scale=3, minimum-scale=1, user-scalable=no"> 
+        <meta name="apple-mobile-web-app-title" content="To-Do List"><!-- Title added to homescreen -->
+        <meta name="apple-mobile-web-app-capable" content="yes" /> <!-- Wether To enable full screen mode -->
+        <meta name="theme-color" content="#3C3764">
+        
+        <link rel="icon" href="favicon.ico" type="image/x-icon" />
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+
+        <title>To-Do List</title>
+        <link rel="stylesheet" href="http://apps.bdimg.com/libs/fontawesome/4.2.0/css/font-awesome.min.css">
+        <!-- <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css"> -->
+        <link rel="stylesheet" href="dist/css/index.css">
+    </head>
+    <body class="body-min-size">
+        <div class="header">
+            <div id="backBtn"><i class="fa fa-chevron-left"></i> Return</div>
+            <h1><i class="fa fa-th"></i></i> ToDo</h1>
+        </div>
+        <div class="main">
+            <div class="left page-active">
+                <div id="allTasks" cateid="-1" class="list-title all-tasks active">
+                    <i class="fa fa-globe"></i> All Tasks (<span>1</span>)
+                </div>
+                <div class="cate"><i class="fa fa-list-ul"></i> Category List </div>
+                <div id="listcontent" class="list"></div>
+                <button id="addCate" class="add"><i class="fa fa-plus"></i>Add Category</button>
+            </div>
+            <div class="mid page-next">
+                <div class="status">
+                    <button id="all-tasks" class="active">All</button>
+                    <button id="unfinish-tasks">Undone</button>
+                    <button id="finished-tasks">Completed</button>
+                </div>
+                <div id="task-list" class="task-list">
+                    <!-- <div>2015-06-05</div>
+                    <ul>
+                        <li taskid="1" class="active">todo-1</li>
+                        <li taskid="2">todo-2</li>
+                    </ul>
+                    <div>2015-06-05</div>
+                    <ul>
+                        <li>todo-1</li>
+                        <li>todo-2</li>
+                    </ul> -->
+                </div>
+                <button id="add-task" class="add-task add"><i class="fa fa-plus"></i>Add Tasks</button>
+            </div>
+            <div class="right">
+                <div class="title">
+                    <h1 class="todo-name">todo-1</h1>
+                    <div class="manipulate">
+                        <a><i class="fa fa-check-square-o"></i></a>
+                        <a><i class="fa fa-pencil-square-o"></i></a>
+                    </div>
+                </div>
+                <div class="task-date">
+                    Mission date：<span>2015-06-05</span>
+                </div>
+                <div class="content">
+                    <textarea class="textarea-content"></textarea>
+                </div>
+                <div class="button-area"></div>
+            </div>
+        </div>
+        <div class="cover">
+            <div class="modal">
+                <div class="modal-head">Add Category</div>
+                <div class="modal-body">
+                    Select Main Category：<select id="modal-select">
+                        <option value="volvo">Volvo</option>
+                    </select><br>
+                    New Category Name:<input id="newCateName" type="text">
+                </div>
+                <div class="modal-foot">
+                    <button id="cancel-modal">Cancel</button>
+                    <button id="ok-modal">Confirm</button>
+                </div>
+            </div>
+        </div>
+        <script src="dist/js/require.min.js" data-main="dist/js/main"></script>
+    </body>
+</html>
