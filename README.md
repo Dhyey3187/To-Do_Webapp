@@ -4,7 +4,7 @@ In Task 3, a PC-side ToDo application was made. Task four is to optimize it for 
 
 ## ToDo WebApp Version
     
-* [My blog](https://github.com/Dhyey3187)
+* [My Profile](https://github.com/Dhyey3187)
 
 ## Details
 
