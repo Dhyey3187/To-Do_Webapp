@@ -1,7 +1,7 @@
 {
   "name": "ToDo-WebApp",
   "version": "1.0.0",
-  "description": "ToDo 用来记录未来要做的任务应用，响应式布局，针对移动设备使用做出优化",
+  "description": "ToDo Application for recording future tasks, responsive layout, optimized for use on mobile devices",
   "main": "gulpfile.js",
   "dependencies": {
     "gulp": "^3.9.0"
@@ -18,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Gaohaoyang/ToDo-WebApp.git"
+    "url": "https://github.com/Dhyey3187/To-Do_Webapp"
   },
   "keywords": [
     "HTML5",
@@ -27,11 +27,11 @@
     "Mobile",
     "WebApp"
   ],
-  "author": "Gao Haoyang<gaohaoyang126@126.com>",
+  "author": "Dhyey Shrimankar<dhyeyshrimankar3187@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Gaohaoyang/ToDo-WebApp/issues",
-    "email": "gaohaoyang126@126.com"
+    "url": "https://github.com/Dhyey3187/To-Do_Webapp",
+    "email": "dhyeyshrimankar3187@gmail.com"
   },
-  "homepage": "https://github.com/Gaohaoyang/ToDo-WebApp"
+  "homepage": "https://github.com/Dhyey3187/To-Do_Webapp"
 }
