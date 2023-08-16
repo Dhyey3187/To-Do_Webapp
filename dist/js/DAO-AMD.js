@@ -41,7 +41,7 @@ define(['util-AMD'], function(_) {
      * @return {[type]} [description]
      */
     var initDataBase = (function() {
-        console.log("立即执行函数");
+        console.log("immediate execution function");
         if (!localStorage.cate || !localStorage.childCate || !localStorage.task) {
             console.log("Initialize the database");
             var cateJson = [{
